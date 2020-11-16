@@ -1,4 +1,4 @@
-import { CocTemplate as CustomTemplate } from "./customTemplate";
+import { CocTemplate as CustomTemplate } from "./template";
 import styled from "@emotion/styled";
 
 export const templates = [
