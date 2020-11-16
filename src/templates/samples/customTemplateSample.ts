@@ -8,7 +8,7 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
 }
 
 export const cocTemplateCertificate: CocTemplateCertificate = {
-  name: "Supplier name is hash key",
+  name: "INVOICE",
   issuers: [
     {
       name: "Ananta Shakti",
