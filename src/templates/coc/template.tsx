@@ -22,7 +22,7 @@ export const CocTemplate: FunctionComponent<
       <h2>Title: {document.certification.title}</h2>
       <h2>Designation: {document.certification.designation}</h2>
       <h2>Date: 19-11-2020</h2>
-      <h2>InvoiceNo.: 10</h2>
+      <h2>InvoiceNo.: {document.certification.invoiceno}</h2>
       <h2>SumRMB: {document.certification.sumRMB}</h2>
       <h2>Signature: {""}</h2>
     </div>
