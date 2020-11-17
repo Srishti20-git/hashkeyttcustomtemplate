@@ -7,6 +7,10 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   };
   certification:{
     title: string;
+    //date: ?
+    designation: string;
+    sumRMB: string;
+    signature: string;
   }
 }
 
@@ -27,6 +31,9 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   },
   certification: {
     title: "New"
+    designation: "Invoice"
+    sumRMB: "222"
+    signature: ""
   },
   $template: {
     name: "COC",
