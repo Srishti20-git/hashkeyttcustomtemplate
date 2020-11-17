@@ -30,9 +30,9 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
     name: "Srishti Marwah"
   },
   certification: {
-    title: "New"
-    designation: "Invoice"
-    sumRMB: "222"
+    title: "New",
+    designation: "Invoice",
+    sumRMB: "222",
     signature: ""
   },
   $template: {
