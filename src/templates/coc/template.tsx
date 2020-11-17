@@ -11,7 +11,7 @@ const containerStyle = css`
   width: 80%;
   text-align: left;
 `;
-const now = new Date();
+//const now = new Date();
 export const CocTemplate: FunctionComponent<
   TemplateProps<CocTemplateCertificate> & { className?: string }
 > = ({ document, className = "" }) => {
@@ -21,7 +21,7 @@ export const CocTemplate: FunctionComponent<
       <h2>Title: "New"</h2>
       <h2>Designation: {"INVOICE"}</h2>
       <h2>InvoiceNo: {"10"}</h2>
-      <h2>Date: {now}</h2>
+      <h2>Date: {""}</h2>
       <h2>SumRMB: {"222"}</h2>
       <h2>Signature: {""}</h2>
     </div>
