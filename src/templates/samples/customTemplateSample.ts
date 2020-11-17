@@ -32,7 +32,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   },
   certification: {
     title: "New",
-    date: new Date().tolocalestring(),
+    date: new Date().tolocaleString(),
     designation: "Invoice",
     invoiceno: "10",
     sumRMB: "222",
