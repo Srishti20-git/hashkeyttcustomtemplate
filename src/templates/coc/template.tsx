@@ -2,8 +2,7 @@ import React, { FunctionComponent } from "react";
 import { TemplateProps } from "@govtechsg/decentralized-renderer-react-components";
 import { css } from "@emotion/core";
 import { CocTemplateCertificate } from "../samples/customTemplateSample";
-import logo from './logo.svg';
-import './App.css';
+
 
 const containerStyle = css`
   background-color: #324353;
@@ -13,19 +12,7 @@ const containerStyle = css`
   width: 80%;
   text-align: left;
 `;
-class App extends React.Component {
-  state={
-    curTime : new Date().toLocaleString(),
-  }
-  render(){
-    return (
-      <div className="App">
-        <p>Date : {this.state.curTime}</p>
-      </div>
-    );
-  }
-}
-export default App;
+
 export const CocTemplate: FunctionComponent<
   TemplateProps<CocTemplateCertificate> & { className?: string }
 > = ({ document, className = "" }) => {
