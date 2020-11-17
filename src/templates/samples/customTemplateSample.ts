@@ -33,6 +33,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   certification: {
     title: "New",
     designation: "Invoice",
+    invoiceno: "10",
     sumRMB: "222",
     signature: ""
   },
