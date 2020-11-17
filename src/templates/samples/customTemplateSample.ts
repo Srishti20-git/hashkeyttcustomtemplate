@@ -7,7 +7,7 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   };
   certification:{
     title: string;
-    //date: ?
+    date: string;
     designation: string;
     invoiceno: string;
     sumRMB: string;
@@ -32,6 +32,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   },
   certification: {
     title: "New",
+    date: new Date().tolocalestring(),
     designation: "Invoice",
     invoiceno: "10",
     sumRMB: "222",
