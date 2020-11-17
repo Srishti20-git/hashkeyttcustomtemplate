@@ -31,7 +31,6 @@ export const CocTemplate: FunctionComponent<
       <h1>{document.name}</h1>
       <h2>Title: {document.certification.title}</h2>
       <h2>Designation: {document.certification.designation}</h2>
-      //<h2>Date: {document.certification.date}</h2>
       <h2>InvoiceNo.: {document.certification.invoiceno}</h2>
       <h2>SumRMB: {document.certification.sumRMB}</h2>
       <h2>Signature: {""}</h2>
