@@ -21,7 +21,7 @@ export const CocTemplate: FunctionComponent<
       <h2>Title: "New"</h2>
       <h2>Designation: {"INVOICE"}</h2>
       <h2>InvoiceNo: {"10"}</h2>
-      <h2>Date: {"2020-11-17T02:17:58.499Z"}</h2>
+      <h2>Date: {new Date()}</h2>
       <h2>SumRMB: {"222"}</h2>
       <h2>Signature: {""}</h2>
     </div>
