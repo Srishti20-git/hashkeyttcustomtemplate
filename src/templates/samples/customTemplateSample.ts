@@ -5,16 +5,14 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   recipient: {
     name: string;
   };
-  certification:{
+  certification: {
     title: string;
-    //date: string;
     designation: string;
     invoiceno: string;
     sumRMB: string;
     signature: string;
   }
 }
-//const dateX = new Date().toLocaleString();
 export const cocTemplateCertificate: CocTemplateCertificate = {
   name: "INVOICE",
   issuers: [
@@ -32,7 +30,6 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   },
   certification: {
     title: "New",
-    //date: dateX,
     designation: "Invoice",
     invoiceno: "10",
     sumRMB: "222",
