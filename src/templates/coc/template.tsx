@@ -18,7 +18,7 @@ export const CocTemplate: FunctionComponent<
 > = ({ document, className = "" }) => {
   return (
     <div css={containerStyle} className={className} id="custom-template">
-      <h1>{document.name}</h1>
+      <h1 style="text-align:center;">CERTIFICATE</h1>
       <h2>Title: {document.certification.title}</h2>
       <h2>Designation: {document.certification.designation}</h2>
       <h2>Date: 19-11-2020</h2>
