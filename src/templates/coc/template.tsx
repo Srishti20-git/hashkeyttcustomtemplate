@@ -2,6 +2,8 @@ import React, { FunctionComponent } from "react";
 import { TemplateProps } from "@govtechsg/decentralized-renderer-react-components";
 import { css } from "@emotion/core";
 import { CocTemplateCertificate } from "../samples/customTemplateSample";
+import logo from './logo.svg';
+import './App.css';
 
 const containerStyle = css`
   background-color: #324353;
@@ -23,6 +25,7 @@ class App extends React.Component {
     );
   }
 }
+export default App;
 export const CocTemplate: FunctionComponent<
   TemplateProps<CocTemplateCertificate> & { className?: string }
 > = ({ document, className = "" }) => {
