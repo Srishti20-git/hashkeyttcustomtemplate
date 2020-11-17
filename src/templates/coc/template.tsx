@@ -18,11 +18,11 @@ export const CocTemplate: FunctionComponent<
   return (
     <div css={containerStyle} className={className} id="custom-template">
       <h1>{document.name}</h1>
-      <h2>Title: {document.certification.title}</h2>
+      <h2>Title: "New"</h2>
       <h2>Designation: {"INVOICE"}</h2>
-      <h2>InvoiceNo: {""}</h2>
-      <h2>Date: {""}</h2>
-      <h2>SumRMB: {""}</h2>
+      <h2>InvoiceNo: {"10"}</h2>
+      <h2>Date: {"2020-11-17T02:17:58.499Z"}</h2>
+      <h2>SumRMB: {"222"}</h2>
       <h2>Signature: {""}</h2>
     </div>
   );
