@@ -18,7 +18,7 @@ export const CocTemplate: FunctionComponent<
   return (
     <div css={containerStyle} className={className} id="custom-template">
       <h1>{document.name}</h1>
-      <h2>Title: "New"</h2>
+      <h2>Title: {"New"}</h2>
       <h2>Designation: {"INVOICE"}</h2>
       <h2>InvoiceNo: {"10"}</h2>
       <h2>Date: {""}</h2>
