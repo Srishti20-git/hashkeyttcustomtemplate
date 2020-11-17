@@ -22,9 +22,9 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   recipient: {
     name: "Srishti Marwah"
   },
-  certification: {
-    title: "New"
-  },
+  //certification: {
+    //title: "New"
+  //},
   $template: {
     name: "COC",
     type: v2.TemplateType.EmbeddedRenderer,
