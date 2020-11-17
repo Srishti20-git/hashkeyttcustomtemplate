@@ -24,7 +24,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   },
   certification: {
     title: "New"
-  }
+  },
   $template: {
     name: "COC",
     type: v2.TemplateType.EmbeddedRenderer,
