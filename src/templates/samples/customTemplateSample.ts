@@ -8,6 +8,7 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   certification:{
     title: string;
     //date: ?
+    invoiceno: string;
     designation: string;
     sumRMB: string;
     signature: string;
