@@ -12,13 +12,23 @@ const containerStyle = css`
   width: 80%;
   text-align: left;
 `;
+const Style = css`
+  background-color: #324353;
+  color: #ffffff;
+  padding: 18px;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+`;
 
 export const CocTemplate: FunctionComponent<
   TemplateProps<CocTemplateCertificate> & { className?: string }
 > = ({ document, className = "" }) => {
   return (
+     <div css={Style} className={className} id="custom-temp">
+      <h1>CERTIFICATE</h1>
+      </div>
     <div css={containerStyle} className={className} id="custom-template">
-      <h1 style="text-align:center;">CERTIFICATE</h1>
       <h2>Title: {document.certification.title}</h2>
       <h2>Designation: {document.certification.designation}</h2>
       <h2>Date: 19-11-2020</h2>
