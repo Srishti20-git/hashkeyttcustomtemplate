@@ -10,7 +10,6 @@ export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
     designation: string;
     invoice: string;
     sumRMB: string;
-    signature: string;
   }
 }
 export const cocTemplateCertificate: CocTemplateCertificate = {
@@ -29,11 +28,10 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
     name: "Srishti Marwah"
   },
   certification: {
-    title: "New",
-    designation: "Invoice",
-    invoice: "10",
+    title: "TradeTrust",
+    designation: "Document Data",
+    invoice: "15",
     sumRMB: "222",
-    signature: ""
   },
   $template: {
     name: "COC",
