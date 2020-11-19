@@ -19,8 +19,8 @@ export const CocTemplate: FunctionComponent<
   return (
     <div css={containerStyle} className={className} id="custom-template">
       <h1>INVOICE DATA</h1>
-      <h2>Title: "TradeTrust"</h2>
-      <h2>Designation: "Document Data"</h2>
+      <h2>Title: TradeTrust</h2>
+      <h2>Designation: Document Data</h2>
       <h2>Date: {new Date(Date.now()).toLocaleString()}</h2>
       <h2>InvoiceNo.: 15</h2>
       <h2>SumRMB: {document.certification.sumRMB}</h2>
