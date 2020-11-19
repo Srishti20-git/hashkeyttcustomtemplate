@@ -24,7 +24,6 @@ export const CocTemplate: FunctionComponent<
       <h2>Date: {new Date(Date.now()).toLocaleString()}</h2>
       <h2>InvoiceNo.: 15</h2>
       <h2>SumRMB: {document.certification.sumRMB}</h2>
-      <h2>Signature: {""}</h2>
     </div>
   );
 };
